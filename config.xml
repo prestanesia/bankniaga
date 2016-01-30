@@ -2,7 +2,7 @@
 <module>
 	<name>bankniaga</name>
 	<displayName><![CDATA[Bank CIMB Niaga]]></displayName>
-	<version><![CDATA[1.1.0]]></version>
+	<version><![CDATA[1.1.1]]></version>
 	<description><![CDATA[Accept payments for your products via Bank CIMB Niaga transfer.]]></description>
 	<author><![CDATA[Prestanesia]]></author>
 	<tab><![CDATA[payments_gateways]]></tab>

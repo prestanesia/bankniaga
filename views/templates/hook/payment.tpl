@@ -23,9 +23,9 @@
 *  International Registered Trademark & Property of PrestaShop SA
 *}
 
-<p class="payment_module_niaga">
-	<a class="bankniaga" href="{$link->getModuleLink('bankniaga', 'payment')|escape:'html'}" title="{l s='Pay by Bank CIMB Niaga' mod='bankniaga'}">
-		<img src="{$this_path_bw}bankwire.jpg" alt="{l s='Pay by Bank CIMB Niaga' mod='bankniaga'}" />
-		{l s='Pay by Bank CIMB Niaga' mod='bankniaga'}
+<p class="payment_module">
+	<a href="{$link->getModuleLink('bankniaga', 'payment')|escape:'html'}" title="{l s='Pay by Bank CIMB Niaga' d='Modules.BankNiaga.Shop'}">
+		<img src="{$this_path_bw}logo.png" alt="{l s='Pay by Bank CIMB Niaga' d='Modules.BankNiaga.Shop'}"/>
+		{l s='Pay by Bank CIMB Niaga' d='Modules.BankNiaga.Shop'}&nbsp;<span>{l s='(order processing will be longer)' d='Modules.BankNiaga.Shop'}</span>
 	</a>
 </p>

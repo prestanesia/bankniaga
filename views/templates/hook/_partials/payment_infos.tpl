@@ -23,9 +23,14 @@
 *  International Registered Trademark & Property of PrestaShop SA
 *}
 
-<div class="alert alert-info">
-<img src="../modules/bankniaga/logo.png" style="float:left; margin-right:15px;" height="60">
-<p><strong>{l s="This module allows you to accept secure payments by Bank CIMB Niaga." d='Modules.BankNiaga.Admin'}</strong></p>
-<p>{l s="If the client chooses to pay by Bank CIMB Niaga, the order's status will change to 'Awaiting Bank CIMB Niaga Payment.'" d='Modules.BankNiaga.Admin'}</p>
-<p>{l s="That said, you must manually confirm the order upon receiving the Bank CIMB Niaga." d='Modules.BankNiaga.Admin'}</p>
-</div>
+
+<dl>
+    <dt>{l s='Amount' mod='bankniaga'}</dt>
+    <dd>{$total}</dd>
+    <dt>{l s='Name of account owner' mod='bankniaga'}</dt>
+    <dd>{$bankniagaOwner}</dd>
+    <dt>{l s='Please include these details' mod='bankniaga'}</dt>
+    <dd>{$bankniagaDetails}</dd>
+    <dt>{l s='Bank name' mod='bankniaga'}</dt>
+    <dd>{$bankniagaAddress nofilter}</dd>
+</dl>
